@@ -255,15 +255,54 @@ body{
 }
 .lunbo_tip .focus{background:#ff8b00;}
 
+.call_info{
+	position: relative;
+	width: 1000px;
+	margin: 50px auto;
+	height: 600px;
 
+}
+.erweima p{
+text-align: center;
+font-size: 30px;
+}
+.erweima_img{
+	float: left;
+	margin: 50px 150px;
+}
 
-
-
-
-
-
-
-
+.blog_con{
+	width: 1000px;
+	margin: 50px auto;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	box-shadow: -2px 0 2px #dfdfdf, 0 -2px 2px #dfdfdf, 0 2px 2px #dfdfdf, 2px 0 2px #dfdfdf;
+}
+.blog_til{
+	font-size: 28px;
+	color: #456456;
+	font-family: inherit;
+	font-weight: 800;
+	line-height: 50px;
+	letter-spacing: 5px;
+	padding: 10px 30px;
+}
+.line{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.blog_p p{
+		font-size: 18px;
+	text-indent: 2em;
+	line-height: 30px;
+	padding:0 50px;
+	/*word-wrap:break-word;*/
+	overflow: hidden;
+	text-overflow:ellipsis; 
+	-o-text-overflow:ellipsis; 
+ 	-webkit-text-overflow: ellipsis; 
+	-moz-text-overflow: ellipsis; 
+}
 
 
 

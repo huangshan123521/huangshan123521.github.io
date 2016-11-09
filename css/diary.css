@@ -81,13 +81,15 @@
 .title{
 	width:100%;
 	border-bottom:1px solid #f6f6f6;
+	padding: 0 50px;
 }
 .blog .artile p{
 	font-size: 18px;
 	text-indent: 2em;
+	line-height: 40px;
+	padding:20px 50px;
 	/*word-wrap:break-word;*/
 	overflow: hidden;
-	text-overflow:ellipsis;
 	text-overflow:ellipsis; 
 	-o-text-overflow:ellipsis; 
  	-webkit-text-overflow: ellipsis; 
