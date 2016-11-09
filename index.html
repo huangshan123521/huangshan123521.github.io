@@ -5,11 +5,12 @@
 <title>工作室</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
-<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 </head>
 <body>
-<div class="container container_nav cf">
-	<a href="index.html" class="logo focus">
+<div class="container_nav">
+	<a href="template.html" class="logo focus">
     	<img src="images/logo.png" width="258" height="91" />
         <div class="choose"></div>
     </a>
@@ -19,7 +20,7 @@
             	<span class="gaoguang"></span>
             	<img src="images/icon_1.png" width="95" height="145" />
             </a>
-            <a href="service.html" class="nav_txt">首页</a>
+            <a href="index.html" class="nav_txt">首页</a>
             <div class="choose"></div>
         </li>
         <li class="navItem_2">
@@ -50,16 +51,16 @@
 </div>
 
 
-<div class="container container_geban">
-	<div class="container container_indexmain">
+<div class="container_geban">
+	<div class="container_indexmain">
     	<div class="diannao" id="js_diannao">
             <ul class="lunbo js_slideWrap">
-                <li style="background-image:url(images/l_1.png)">
-                </li>
-                <li style="background-image:url(images/l_2.png)">
-                </li>
-                <li style="background-image:url(images/l_3.png)">
-                </li>
+                <a href="index.html"><li style="background-image:url(images/l_1.png)">
+                </li></a>
+                <a href="index.html"><li style="background-image:url(images/l_2.png)">
+                </li></a>
+                <a href="index.html"><li style="background-image:url(images/l_3.png)">
+                </li></a>
             </ul>
             <ul class="lunbo_tip js_slideTip">
                 <li class="focus"></li>
@@ -69,13 +70,18 @@
         	<img src="images/gaoguang.png" width="379" height="225" class="gaoguang_diannao" />
             <img src="images/diannao.png" width="417" height="305" />
         </div>
-        <div class="ps">
+        <div class="book">
             <img src="images/ps.png" width="124" height="197" />
         </div>
     </div>
 </div>
 
-
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        //首页轮播
+        xlc.tabList ("#js_diannao" , "mouseover" , "focus" , true , 3000);
+    });
+</script>
 <div class="footer">
 	京ICP备11017824号-4 / 京ICP证130164号 北京市公安局朝阳分局备案编号:110105000501 Copyright © 2016-2020
 </div>

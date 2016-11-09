@@ -1,8 +1,6 @@
 /* 设置需要的标签内边距和外边距为0，仅添加需要的标签，不建议使用星号（*）代替，以下为示例 */
 * { margin: 0; padding: 0;  font-size: 14px; outline: none; font-family:"Microsoft YaHei", "Apple LiSung Light", "SimSun";}
 
-/*body{background:url(../images/bg_body.png) left top repeat-x #f0f0f0;padding-bottom:50px;}*/
-
 /*禁止FF等浏览器给textarea增加可拖拽大小的设置*/
 textarea { resize: none; }
 
@@ -19,7 +17,8 @@ ul , li{ list-style: none; }
 .align_right { text-align: right; }
 
 /* 设置链接默认样式，默认颜色和鼠标移入颜色根据实际需求自行更改 */
-a{text-decoration:none;color:#4a4a4a;
+a{text-decoration:none;
+	color:#4a4a4a;
 	transition:color 0.2s;
 	-webkit-transition: color 0.2s;
 	-moz-transition: color 0.2s;

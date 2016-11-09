@@ -1,0 +1,76 @@
+.produce{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+.case_item{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.case_item a{
+	padding:5px 10px;
+}
+.case_item .focus{
+	background:#ff4400;
+	color:#fff;
+}
+.case_list{
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	float: left;
+}
+.case_list img{
+	width: 450px;
+	height: 300px;
+}
+.case-wrap{
+	height: 80px;
+	width: 450px;
+	background-color: #fff;
+	margin-top: -5px;
+}
+.case-wrap .title {
+	font-size:28px;
+	text-align: center;
+	font-weight: 800;
+	line-height: 40px;
+}
+.case-wrap .des{
+	font-size: 16px;
+	text-align: center;
+	color: #666;
+}
+.cover{
+	/*background: rgba(210, 226, 137, 0.96);*/
+ 	-webkit-transition: all 0.8s linear;
+	-moz-transition: all 0.8s linear;
+	-ms-transition: all 0.8s linear;
+	-o-transition: all 0.8s linear;
+	transition: all 0.8s linear;
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    width: 450px;
+    height: 380px;
+    position: absolute;
+    top: -95%;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+	background: url(../images/cover.jpg)no-repeat;
+}
+
+
+
+
+
+
+
+
+
+

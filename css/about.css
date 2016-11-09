@@ -1,0 +1,30 @@
+.cover{
+	width:100%;
+	height:600px;
+	position:relative;
+	left:0;
+	background: url(../images/intro-bg.jpg) no-repeat;
+}
+.cover img{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+#intro{
+	position: relative;
+	margin: 50px auto;
+	width: 1000px;
+	height: 600px;
+}
+.intro img{
+	display: block;
+	margin: 0 auto;
+}
+.precent{
+	padding: 50px 200px;
+}
+.precent img{
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+}
